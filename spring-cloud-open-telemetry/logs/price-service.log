@@ -1,0 +1,68 @@
+2023-11-07 13:36:52.517  INFO [price-service,,] 1 --- [main] c.b.opentelemetry.PriceApplication       : Starting PriceApplication using Java 11.0.21 on ba68cbc562a8 with PID 1 (/spring-cloud-open-telemetry.jar started by root in /)
+2023-11-07 13:36:52.730  INFO [price-service,,] 1 --- [main] c.b.opentelemetry.PriceApplication       : No active profile set, falling back to 1 default profile: "default"
+2023-11-07 13:36:56.088  INFO [price-service,,] 1 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=163c1613-c3b4-3e50-b8f7-c15c56bd4b4d
+2023-11-07 13:36:57.939  INFO [price-service,,] 1 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2023-11-07 13:36:57.955  INFO [price-service,,] 1 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-11-07 13:36:57.956  INFO [price-service,,] 1 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-11-07 13:36:58.175  INFO [price-service,,] 1 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-11-07 13:36:58.176  INFO [price-service,,] 1 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4352 ms
+2023-11-07 13:37:00.816  INFO [price-service,,] 1 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2023-11-07 13:37:00.845  INFO [price-service,,] 1 --- [main] c.b.opentelemetry.PriceApplication       : Started PriceApplication in 10.24 seconds (JVM running for 13.199)
+2023-11-07 13:37:55.493  INFO [price-service,d81226f815dd5a7bd07f155222fb9cad,be38d49e0e9e6070] 1 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-07 13:37:55.510  INFO [price-service,d81226f815dd5a7bd07f155222fb9cad,be38d49e0e9e6070] 1 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-11-07 13:37:55.516  INFO [price-service,d81226f815dd5a7bd07f155222fb9cad,be38d49e0e9e6070] 1 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2023-11-07 13:37:55.741  INFO [price-service,d81226f815dd5a7bd07f155222fb9cad,be38d49e0e9e6070] 1 --- [http-nio-8081-exec-1] c.b.o.controller.PriceController         : Getting Price details for Product Id 100003
+2023-11-07 13:37:55.751  INFO [price-service,d81226f815dd5a7bd07f155222fb9cad,be38d49e0e9e6070] 1 --- [http-nio-8081-exec-1] c.b.o.repository.PriceRepository         : Getting Price from Price Repo With Product Id 100003
+2023-11-07 13:41:31.586  INFO [price-service,09abf97c805a4cb6635dd10345df4e81,2f0101224493338d] 1 --- [http-nio-8081-exec-2] c.b.o.controller.PriceController         : Getting Price details for Product Id 100003
+2023-11-07 13:41:31.592  INFO [price-service,09abf97c805a4cb6635dd10345df4e81,2f0101224493338d] 1 --- [http-nio-8081-exec-2] c.b.o.repository.PriceRepository         : Getting Price from Price Repo With Product Id 100003
+2023-11-07 13:41:39.991  INFO [price-service,50a0abf953fa659cae5d7b527d5fb8cf,a793d6cac550e27d] 1 --- [http-nio-8081-exec-4] c.b.o.controller.PriceController         : Getting Price details for Product Id 100005
+2023-11-07 13:41:39.992  INFO [price-service,50a0abf953fa659cae5d7b527d5fb8cf,a793d6cac550e27d] 1 --- [http-nio-8081-exec-4] c.b.o.repository.PriceRepository         : Getting Price from Price Repo With Product Id 100005
+2023-11-07 13:41:39.993 ERROR [price-service,50a0abf953fa659cae5d7b527d5fb8cf,a793d6cac550e27d] 1 --- [http-nio-8081-exec-4] c.b.o.repository.PriceRepository         : Price Not Found for Product Id 100005
+2023-11-07 13:45:02.006  INFO [price-service,,] 1 --- [main] c.b.opentelemetry.PriceApplication       : Starting PriceApplication using Java 11.0.21 on 7bec14c896d5 with PID 1 (/spring-cloud-open-telemetry.jar started by root in /)
+2023-11-07 13:45:02.035  INFO [price-service,,] 1 --- [main] c.b.opentelemetry.PriceApplication       : No active profile set, falling back to 1 default profile: "default"
+2023-11-07 13:45:05.029  INFO [price-service,,] 1 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=163c1613-c3b4-3e50-b8f7-c15c56bd4b4d
+2023-11-07 13:45:06.737  INFO [price-service,,] 1 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2023-11-07 13:45:06.765  INFO [price-service,,] 1 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-11-07 13:45:06.767  INFO [price-service,,] 1 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-11-07 13:45:07.058  INFO [price-service,,] 1 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-11-07 13:45:07.060  INFO [price-service,,] 1 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3963 ms
+2023-11-07 13:45:10.233  INFO [price-service,,] 1 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2023-11-07 13:45:10.267  INFO [price-service,,] 1 --- [main] c.b.opentelemetry.PriceApplication       : Started PriceApplication in 9.834 seconds (JVM running for 12.723)
+2023-11-07 13:45:37.781  INFO [price-service,d55ce627ac57c6a627c81df35057d27f,9d8d52aea1dbcc66] 1 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-07 13:45:37.788  INFO [price-service,d55ce627ac57c6a627c81df35057d27f,9d8d52aea1dbcc66] 1 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-11-07 13:45:37.793  INFO [price-service,d55ce627ac57c6a627c81df35057d27f,9d8d52aea1dbcc66] 1 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2023-11-07 13:45:37.912  INFO [price-service,d55ce627ac57c6a627c81df35057d27f,9d8d52aea1dbcc66] 1 --- [http-nio-8081-exec-1] c.b.o.controller.PriceController         : Getting Price details for Product Id 100005
+2023-11-07 13:45:37.924  INFO [price-service,d55ce627ac57c6a627c81df35057d27f,9d8d52aea1dbcc66] 1 --- [http-nio-8081-exec-1] c.b.o.repository.PriceRepository         : Getting Price from Price Repo With Product Id 100005
+2023-11-07 13:45:37.925 ERROR [price-service,d55ce627ac57c6a627c81df35057d27f,9d8d52aea1dbcc66] 1 --- [http-nio-8081-exec-1] c.b.o.repository.PriceRepository         : Price Not Found for Product Id 100005
+2023-11-07 13:51:49.932  INFO [price-service,,] 1 --- [main] c.b.opentelemetry.PriceApplication       : Starting PriceApplication using Java 11.0.21 on c3b80fa803e4 with PID 1 (/spring-cloud-open-telemetry.jar started by root in /)
+2023-11-07 13:51:49.938  INFO [price-service,,] 1 --- [main] c.b.opentelemetry.PriceApplication       : No active profile set, falling back to 1 default profile: "default"
+2023-11-07 13:51:54.062  INFO [price-service,,] 1 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=163c1613-c3b4-3e50-b8f7-c15c56bd4b4d
+2023-11-07 13:51:55.820  INFO [price-service,,] 1 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2023-11-07 13:51:55.951  INFO [price-service,,] 1 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-11-07 13:51:55.955  INFO [price-service,,] 1 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-11-07 13:51:56.159  INFO [price-service,,] 1 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-11-07 13:51:56.191  INFO [price-service,,] 1 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 5290 ms
+2023-11-07 13:52:02.578  INFO [price-service,,] 1 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2023-11-07 13:52:02.659  INFO [price-service,,] 1 --- [main] c.b.opentelemetry.PriceApplication       : Started PriceApplication in 14.134 seconds (JVM running for 16.138)
+2023-11-07 13:52:59.938  INFO [price-service,ada65c7a584f8f9ea39f5867001baf37,5b6223bab309658e] 1 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-07 13:52:59.942  INFO [price-service,ada65c7a584f8f9ea39f5867001baf37,5b6223bab309658e] 1 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-11-07 13:52:59.943  INFO [price-service,ada65c7a584f8f9ea39f5867001baf37,5b6223bab309658e] 1 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-11-07 13:53:00.067  INFO [price-service,ada65c7a584f8f9ea39f5867001baf37,5b6223bab309658e] 1 --- [http-nio-8081-exec-1] c.b.o.controller.PriceController         : Getting Price details for Product Id 100005
+2023-11-07 13:53:00.070  INFO [price-service,ada65c7a584f8f9ea39f5867001baf37,5b6223bab309658e] 1 --- [http-nio-8081-exec-1] c.b.o.repository.PriceRepository         : Getting Price from Price Repo With Product Id 100005
+2023-11-07 13:53:00.071 ERROR [price-service,ada65c7a584f8f9ea39f5867001baf37,5b6223bab309658e] 1 --- [http-nio-8081-exec-1] c.b.o.repository.PriceRepository         : Price Not Found for Product Id 100005
+2023-11-07 14:48:56.821  INFO [price-service,,] 1 --- [main] c.b.opentelemetry.PriceApplication       : Starting PriceApplication using Java 11.0.21 on 8ab80c21ba6d with PID 1 (/spring-cloud-open-telemetry.jar started by root in /)
+2023-11-07 14:48:56.841  INFO [price-service,,] 1 --- [main] c.b.opentelemetry.PriceApplication       : No active profile set, falling back to 1 default profile: "default"
+2023-11-07 14:48:59.820  INFO [price-service,,] 1 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=163c1613-c3b4-3e50-b8f7-c15c56bd4b4d
+2023-11-07 14:49:01.232  INFO [price-service,,] 1 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2023-11-07 14:49:01.261  INFO [price-service,,] 1 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-11-07 14:49:01.263  INFO [price-service,,] 1 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-11-07 14:49:01.476  INFO [price-service,,] 1 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-11-07 14:49:01.484  INFO [price-service,,] 1 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3618 ms
+2023-11-07 14:49:05.290  INFO [price-service,,] 1 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2023-11-07 14:49:05.440  INFO [price-service,,] 1 --- [main] c.b.opentelemetry.PriceApplication       : Started PriceApplication in 10.186 seconds (JVM running for 12.885)
+2023-11-07 14:51:38.436  INFO [price-service,4113a5422791202239f12d0c500af107,60aee8e0f7ad4f43] 1 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-07 14:51:38.445  INFO [price-service,4113a5422791202239f12d0c500af107,60aee8e0f7ad4f43] 1 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-11-07 14:51:38.451  INFO [price-service,4113a5422791202239f12d0c500af107,60aee8e0f7ad4f43] 1 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2023-11-07 14:51:38.576  INFO [price-service,4113a5422791202239f12d0c500af107,60aee8e0f7ad4f43] 1 --- [http-nio-8081-exec-1] c.b.o.controller.PriceController         : Getting Price details for Product Id 100005
+2023-11-07 14:51:38.584  INFO [price-service,4113a5422791202239f12d0c500af107,60aee8e0f7ad4f43] 1 --- [http-nio-8081-exec-1] c.b.o.repository.PriceRepository         : Getting Price from Price Repo With Product Id 100005
+2023-11-07 14:51:38.584 ERROR [price-service,4113a5422791202239f12d0c500af107,60aee8e0f7ad4f43] 1 --- [http-nio-8081-exec-1] c.b.o.repository.PriceRepository         : Price Not Found for Product Id 100005
